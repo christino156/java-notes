@@ -1,5 +1,15 @@
 # Java
 
+## The Four Principles of Java
+
+All ```the concepts of JAVA``` are based on classes and its objects. An object is a real world entity that has some attributes or properties. Class is a prototype, blueprint or template on the basis of which objects are created. An object cannot exist without a class.
+The basic three principles of JAVA are defined below.
+
+* ```Inheritance``` - a concept that is used for code re-usability.
+* ```Polymorphism``` - polymorphism means many forms. It is a concept that allows one interface to be used for a general class of actions. It is also called 'one interface many methods '. For example there is a mobile set that contains many types of keys. Each key can perform several types of functions. It can either write digits, letters or symbols. This key is polymorphic because it can be used for performing many things at the same time. This is a suitable example of polymorphism. Method overriding is a part of polymorphism.
+* ```Encapsulation``` - it is a concept that acts like a binding force. It prevents unauthorized access of a class from outside users. Encapsulation means 'in capsule' that means that everything is secured so that security of the class is maintained. It is implemented by the use of access specifiers for example public, private, protected. Access modifiers specify the access of one class from another class. For example if a class is defied as private then then it cannot be accessed from any other class. Public class can be accessed from any class that is within or outside the package. It acts as a security feature.
+* ```Abstraction``` - abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it. In Java, abstraction is achieved using Abstract classes and interfaces.
+
 ## Inner Classes
 Nested classes are divided into two types:
 
@@ -117,7 +127,7 @@ Output
 This is an example of anonymous inner class
 ```
 
-***Explanation on how this abstract fuckery actually works***
+***Explanation on how this abstract fuckery actually works*** <br/>
 https://stackoverflow.com/questions/55045572/instantiation-of-abstract-classes 
 
 
@@ -139,6 +149,14 @@ public class Outer {
    }
 }
 ```
+
+## Packages
+
+A ```package``` in Java is used to group related classes. Think of it as a folder in a file directory. We use packages to avoid name conflicts, and to write a better maintainable code. Packages are divided into two categories:
+
+* Built-in Packages (packages from the Java API)
+* User-defined Packages (create your own packages)
+
 
 ---
 * The four Java principles
