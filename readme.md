@@ -271,10 +271,6 @@ class Main {
 
 ```
 
-## Stack Trace and Call Stack
-
-```Stack trace``` is a representation of the ```call stack```. A stack trace is a report of the active stack frames at a certain point in time during the execution of a program. In other words, the call stack is the actual data structure in memory, while the stack trace is a snapshot of said data structure.
-
 ```
 Output:
 
@@ -286,6 +282,11 @@ String from x is hello i am a string part of singleton class
 String from y is hello i am a string part of singleton class
 String from z is hello i am a string part of singleton class
 ```
+
+## Stack Trace and Call Stack
+
+```Stack trace``` is a representation of the ```call stack```. A stack trace is a report of the active stack frames at a certain point in time during the execution of a program. In other words, the call stack is the actual data structure in memory, while the stack trace is a snapshot of said data structure.
+
 ---
 
 ## Concurrency
@@ -296,7 +297,7 @@ String from z is hello i am a string part of singleton class
 * ```Mutex``` is the same as a lock but it can be system wide (shared by multiple processes).
 * ```Semaphore``` does the same as a mutex but allows x number of threads to enter, this can be used for example to limit the number of cpu, io or ram intensive tasks running at the same time.
 
-* ```atomic``` variable -
+* ```atomic``` variable - low-level direct operations, idk this one
 * ```volatile``` variable - used to mark a Java variable as "being stored in main memory". More precisely that means, that every read of a volatile variable will be read from the computer's main memory, and not from the CPU cache, and that every write to a volatile variable will be written to main memory, and not just to the CPU cache. 
 
 #### Possible problems
