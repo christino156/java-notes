@@ -10,6 +10,14 @@ The basic three principles of JAVA are defined below.
 * ```Encapsulation``` - it is a concept that acts like a binding force. It prevents unauthorized access of a class from outside users. Encapsulation means 'in capsule' that means that everything is secured so that security of the class is maintained. It is implemented by the use of access specifiers for example public, private, protected. Access modifiers specify the access of one class from another class. For example if a class is defied as private then then it cannot be accessed from any other class. Public class can be accessed from any class that is within or outside the package. It acts as a security feature.
 * ```Abstraction``` - abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it. In Java, abstraction is achieved using Abstract classes and interfaces.
 
+---
+
+## Modularity
+
+```Modular programming``` is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality. 
+
+---
+
 ## Inner Classes
 Nested classes are divided into two types:
 
@@ -422,7 +430,6 @@ The features of Java stream are –
       number.stream().map(x->x*x).forEach(y->System.out.println(y));
       ```
    * ```reduce``` - used to reduce the elements of a stream to a single value. The reduce method takes a BinaryOperator as a parameter.
-
       ```java
       List number = Arrays.asList(2,3,4,5);
       int even = number.stream().filter(x->x%2==0).reduce(0,(ans,i)-> ans+i);
