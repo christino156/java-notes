@@ -48,7 +48,7 @@ class Outer_Demo {
    // inner class
    public class Inner_Demo {
       public int getNum() {
-         System.out.println("This is the getnum method of the inner class");
+         System.out.println("This is the getnum method of the inner class:");
          return num;
       }
    }
@@ -69,7 +69,8 @@ public class My_class2 {
 ```
 Output
 
-This is the getnum method of the inner class: 175
+This is the getnum method of the inner class: 
+175
 ```
 
 #### Method-local Inner Class
