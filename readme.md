@@ -117,12 +117,12 @@ abstract class AnonymousInner {
    public abstract void mymethod();
 }
 
-public class Outer_class {
+public class OuterClass {
 
    public static void main(String args[]) {
       AnonymousInner inner = new AnonymousInner() {
          public void mymethod() {
-            System.out.println("This is an example of anonymous inner class");
+            System.out.println("This is an example of an anonymous inner class");
          }
       };
       inner.mymethod();	
@@ -133,7 +133,7 @@ public class Outer_class {
 ```
 Output
 
-This is an example of anonymous inner class
+This is an example of an anonymous inner class
 ```
 
 ***Explanation on how this abstract fuckery actually works*** <br/>
