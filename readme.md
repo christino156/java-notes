@@ -78,7 +78,7 @@ This is the getnum method of the inner class:
 In Java, we can write a class within a method and this will be a local type. Like local variables, the scope of the inner class is restricted within the method.
 
 ```java
-public class Outerclass {
+public class OuterClass {
    // instance method of the outer class 
    void my_Method() {
       int num = 23;
@@ -96,7 +96,7 @@ public class Outerclass {
    }
    
    public static void main(String args[]) {
-      Outerclass outer = new Outerclass();
+      OuterClass outer = new OuterClass();
       outer.my_Method();	   	   
    }
 }
