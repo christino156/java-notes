@@ -216,7 +216,7 @@ Following are the requirements:
 
 * ```hashcode()```: a method provided by java.lang.Object that returns an integer representation of the object memory address. By default, this method returns a random integer that is unique for each instance. This integer might change between several executions of the application and won't stay the same.
 
-The default implementation is not enough to satisfy business needs, especially if we're talking about a huge application that considers two objects as equal when some business fact happens. In some business scenarios, developers provide their own implementation in order to force their own equality mechanism regardless the memory addresses.
+The default implementation is not enough to satisfy business needs, especially if we're talking about a huge application that considers two objects as equal when some business fact happens. In some business scenarios, developers provide their own implementation in order to force their own equality mechanism regardless of the memory addresses.
 
 As per the Java documentation, developers should override both methods in order to achieve a fully working equality mechanism — it's not enough to just implement the equals() method.
 
@@ -243,7 +243,7 @@ After first time, if we try to instantiate the Singleton class, the new variable
 
 To design a singleton class:
 1. Make constructor as private.
-2. Write a static method that has return type object of this singleton class. Here, the concept of Lazy initialization in used to write this static method.
+2. Write a static method that has return type object of this singleton class. Here, the concept of Lazy initialization is used to write this static method.
 
 ```java
 class Singleton 
@@ -400,7 +400,7 @@ Mayers
 ### Streams
 
 The ```Stream API``` is used to process collections of objects. A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
-The features of Java stream are –
+The features of Java stream are:
 
 * A stream is not a data structure instead it takes input from the Collections, Arrays or I/O channels.
 * Streams don’t change the original data structure, they only provide the result as per the pipelined methods.
@@ -446,4 +446,3 @@ The features of Java stream are –
 
 ---
 
-Trees
