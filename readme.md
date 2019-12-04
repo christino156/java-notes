@@ -112,6 +112,8 @@ This is method inner class 23
 
 An inner class declared without a class name is known as an anonymous inner class. In case of anonymous inner classes, we declare and instantiate them at the same time. Generally, they are used whenever you need to override the method of a class or an interface.
 
+From the Java Documentation: Anonymous classes enable you to make your code more concise. They enable you to declare and instantiate a class at the same time. They are like local classes except that they do not have a name. Use them if you need to use a local class only once. More at: https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
+
 ```java
 abstract class AnonymousInner {
    public abstract void mymethod();
